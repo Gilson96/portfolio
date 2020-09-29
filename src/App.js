@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import './App.css';
+import './styles/main.css'
 import Main from './components/main.js';
 import { Link } from 'react-router-dom';
+
 
 class App extends Component {
   render(){

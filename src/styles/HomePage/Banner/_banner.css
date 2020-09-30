@@ -1,0 +1,20 @@
+.homepage-banner{
+    background: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.homepage-banner h1{
+  
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.homepage-banner hr{
+  border-top: 5px dashed groove;
+  width: 50%;
+  margin: auto;
+}

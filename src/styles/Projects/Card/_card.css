@@ -2,3 +2,22 @@
     min-width: 450px;
     margin: auto;
 }
+
+.projects-card-title{
+    height: 300px;
+    background: url(https://cdn.worldvectorlogo.com/logos/react.svg) center / cover;
+}
+
+.projects-card-title p{
+    color: black;
+
+}
+
+.projects-card-text{
+
+}
+
+.projects-card-menu{
+    color: white;
+
+}

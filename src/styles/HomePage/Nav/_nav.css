@@ -3,3 +3,34 @@
     background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.header-anchor-one{
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Fredoka One', cursive;
+    width: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 
+				8px 8px #02326a,
+  
+}
+
+
+.header-anchor-two{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Fredoka One', cursive;
+    width: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 
+				8px 8px #02326a,
+}

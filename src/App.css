@@ -3,7 +3,23 @@
 @import './styles/HomePage/Banner/_banner.css';
 @import './styles/HomePage/Avatar/_avatar.css';
 @import './styles/HomePage/Nav/_nav.css';
-@import './styles/HomePage/Skills/_skills.css'
+@import './styles/HomePage/Skills/_skills.css';
 
     /* Projects */
+@import './styles/Projects/_projects.css';
+@import './styles/Projects/Card/_card.css';
 
+   /* Contact */
+@import './styles/Contact/_contact.css';
+  
+   /* Resume */
+@import './styles/Resume/_resume.css';
+
+:root{
+    --banner-color:linear-gradient(to right, #004e92, #000428);
+}
+body{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

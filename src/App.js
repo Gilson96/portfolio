@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import './App.css';
-import './styles/main.css'
 import Main from './components/main.js';
 import { Link } from 'react-router-dom';
 
@@ -11,20 +10,19 @@ class App extends Component {
     return (
         <div className="demo-big-content">
             <Layout>
-                <Header title="Title" scroll>
-                    <Navigation>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                <Header className="header-color" title={<a className="header-anchor-one" href="/">Gi's Portofolio</a>} scroll>
+                    <Navigation className="header-nav">
+                        <Link className="header-nav-one" to="/resume">Resume</Link>
+                        <Link className="header-nav-one" to="/projects">Projects</Link>
+                        <Link className="header-nav-one" to="/contact">Contact</Link>
                     </Navigation>
+                   
                 </Header>
-                <Drawer title="Title">
-                    <Navigation>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                <Drawer title={<a className="header-anchor-two" href="/">Gi's Portofolio</a>}>
+                    <Navigation className="header-nav-two">
+                        <Link style={{color: "black"}} to="/resume">Resume</Link>
+                        <Link style={{color: "black"}} to="/projects">Projects</Link>
+                        <Link style={{color: "black"}} to="/contact">Contact</Link>
                     </Navigation>
                 </Drawer>
                 <Content>

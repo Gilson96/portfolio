@@ -11,20 +11,33 @@
     justify-content: center;
     width: 80%;
     height: 550px;
-    color: black;
+
     margin-bottom: 20px;
+    
 }
 
 .contact-grid h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 8px 8px #02326a;
 }
 
 .contact-text{
-    width: 75%;
+    font-family: 'Fredoka One', cursive;
+    text-align: left;
+    width: 80%;
     margin: auto;
     padding-top: 1em;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 2rem;
+    line-height: 4rem;  
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+    
 }
 
 .contact-grid hr{
@@ -36,10 +49,38 @@
 .contact-list-item{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    color: chartreuse;
+    color: lightgray;
 }
 
 .contact-list i{
-   font-size: 3rem;
+   font-size: 4rem;
    padding-right: 1rem;
+}
+
+.contact-list a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-left: 1rem;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+    
+ }
+
+@media only screen and (max-width: 750px){
+    
+    .contact-text{
+        font-size: 2rem;
+    }
+
+    .contact-list i{
+        font-size: 3rem;
+    }
+
+    .contact-list a{
+        font-size: 1.3rem;
+        margin-left: 0;
+    }
+   
 }

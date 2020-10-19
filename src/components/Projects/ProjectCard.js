@@ -1,14 +1,13 @@
 import React from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
+import {  Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
 
 
 const ProjectCard = ({ number, description }) => (
 
    
         <Card shadow={5} className="projects-card">
-            <CardTitle className="projects-card-title">
-                <p>React Project {number}</p>
-            </CardTitle>
+            <CardTitle className="projects-card-title"/>
+            
 
             <CardText className="projects-card-text">
                 <p>{description}</p>

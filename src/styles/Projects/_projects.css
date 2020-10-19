@@ -1,4 +1,10 @@
 .project-grid{
-    color: violet;
     display: flex;
 }
+
+@media screen and (max-width: 800px) {
+    .project-grid {
+      flex-wrap: wrap;
+    }
+  }
+  

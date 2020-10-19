@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Skills from './Skills/skills';
 
 class HomePage extends Component {
     render(){
@@ -20,90 +21,42 @@ class HomePage extends Component {
                             <h1>Full Stack Web Developer</h1>   
                             <hr/>
                             <h1>Skills</h1>
-                           
-                            <div className="homepage-banner-skills">
-                                  
-                               <div className="icon">
-                                    {/*  HTML5  */}
-                                    <i className="fab fa-html5" aria-hidden="true">
-                                    </i>
-                                </div>
-                                <span>HTML5</span>
-                            </div>
-
-                            <div className="homepage-banner-skills">  
-                               <div className="icon">
-                                    {/* CSS */}
-                                    <i className="fab fa-css3-alt" aria-hidden="true">
-                                    </i>
-                                </div> 
-                                <span>CSS</span>
-                            </div>
-
-
-                            <div className="homepage-banner-skills">  
-                               <div className="icon">
-                                    {/* BootStrap  */}
-                                    <i className="fab fa-bootstrap" aria-hidden="true">  
-                                    </i> 
-                                </div> 
-                                <span>BootStrap</span>
-                            </div>
-
-
-                            <div className="homepage-banner-skills">  
-                               <div className="icon">
-                                    {/* JavaScript */}
-                                    <i className="fab fa-js" aria-hidden="true">
-                                    </i>
-                                </div> 
-                                <span>JavaScript</span>
-                            </div>
-
-
-                            <div className="homepage-banner-skills">  
-                               <div className="icon">
-                                    {/* React */}
-                                    <i className="fab fa-react" aria-hidden="true">
-                                    </i>
-                                </div> 
-                                <span>React</span>
-                            </div>
-
-                            <div className="homepage-banner-skills">  
-                               <div className="icon">
-                                    {/* Php */}
-                                    <i className="fab fa-php" aria-hidden="true">
-                                    </i>
-                                </div> 
-                                <span>Php</span>
-                            </div>
-
-                            <div className="homepage-banner-skills">  
-                               <div className="icon">
-                                    {/*  Laravel */}
-                                    <i className="fab fa-laravel" aria-hidden="true"/> 
-                                </div> 
-                                <span>Laravel</span>
-                            </div>
-
-                            <div className="homepage-banner-skills">  
-                               <div className="icon">
-                                    {/*  Git */}
-                                    <i className="fab fa-github-square"></i>
-                                </div> 
-                                <span>Git</span>
-                            </div>
-
-                            <div className="homepage-banner-skills">  
-                               <div className="icon">
-                                    {/*  Git */}
-                                    <i className="fas fa-database"></i> 
-                                </div> 
-                                <span>MySql</span>
-                            </div>   
-
-                                     
+                           <Skills
+                                title="HTML"
+                                icon="fab fa-html5"
+                           />
+                           <Skills
+                                title="CSS"
+                                icon="fab fa-css3-alt"
+                           />
+                           <Skills
+                                title="BootStrap"
+                                icon="fab fa-bootstrap"
+                           />
+                           <Skills
+                                title="JavaScript"
+                                icon="fab fa-js"
+                           />
+                           <Skills
+                                title="React"
+                                icon="fab fa-react"
+                           />
+                           <Skills
+                                title="Php"
+                                icon="fab fa-php"
+                           />
+                           <Skills
+                                title="Laravel"
+                                icon="fab fa-laravel"
+                           />
+                           <Skills
+                                title="Git"
+                                icon="fab fa-github-square"
+                           />
+                           <Skills
+                                title="MySql"
+                                icon="fas fa-database"
+                           />
                         </section>
             
 

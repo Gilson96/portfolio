@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Skills = ({ title, icon }) => (
+const Icon = ({ title, icon }) => (
 
-    <div className="homepage-banner-skills"> 
+    <div className="homepage-banner-Icon"> 
         <div className="icon">
             <i className={ icon } aria-hidden="true"/>
         </div>
@@ -10,4 +10,4 @@ const Skills = ({ title, icon }) => (
     </div>      
 );
 
-export default Skills;
+export default Icon;

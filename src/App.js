@@ -1,15 +1,24 @@
 import React, { Component } from 'react';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+// import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import './App.css';
-import Main from './components/main.js';
-import { Link } from 'react-router-dom';
+// import Main from './components/main.js';
+// import { Link } from 'react-router-dom';
+import HomePage from './components/HomePage/homepage'
+import Skills from './components/Skills/skills'
+import Projects from './components/Projects/projects';
+import Contact from './components/Contact/contact';
+
 
 
 class App extends Component {
   render(){
     return (
-        <div className="demo-big-content">
-            <Layout>
+        <div>
+            <HomePage/>
+            <Skills/>
+            <Projects/>
+            <Contact/>
+            {/* <Layout>
                 <Header className="header-color" title={<a className="header-anchor-one" href="/">Gi's Portofolio</a>} scroll>
                     <Navigation className="header-nav">
                         <Link className="header-nav-one" to="/resume">Resume</Link>
@@ -29,7 +38,8 @@ class App extends Component {
                     <div className="page-content" />
                     <Main/>
                 </Content>
-            </Layout>
+            </Layout> */}
+            
         </div>
     );
   }

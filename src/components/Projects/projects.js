@@ -3,53 +3,27 @@ import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import ProjectCard from './ProjectCard';
 
 class Projects extends Component {
-    constructor(props){
-        super(props);
-        this.state = { activeTab: 0};
-    }
 
-    // function to see which tab is active
-    toggleCategories(){
-        if(this.state.activeTab === 0){
-            return(
-                <>
-                    <div className="project-grid">
-                        <ProjectCard 
-                            number={1}
-                            description="description of react project 1"
-                        />
-                    </div>
-                </>
-            )
-        } else if( this.state.activeTab === 1){
-            return(
-                <div className="project-grid">
-                    <ProjectCard 
-                        number={1}
-                        description="description of laravel project 1"
-                    />
-                </div>
-            )
-        }
-    }
-  
-
-    render(){
-        return(
-            <section className="category-tabs">
-                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                    <Tab style={{color: "white"}}>React/Redux</Tab>
-                    <Tab style={{color: "white"}}>Php/Laravel</Tab>
-
-                </Tabs>
-                
-                <Grid>
-                    <Cell col={12}>
-                         <div className="content">
-                            {this.toggleCategories()}
+    render() {
+        return (
+            // <!--portfolio------------------->
+            <section id="portfolio">
+                {/* <!--heading-----------> */}
+                <h1 class="p-headind">Portfolio</h1>
+                {/* <!--portfolio-container------------> */}
+                <div class="p-container">
+                    {/* <!--portfolio-box-1--------> */}
+                    <div class="p-box">
+                        {/* <!--text---------> */}
+                        <div class="overlay-text">
+                            <h1>Writting</h1>
+                            <p>Client Project</p>
                         </div>
-                    </Cell>
-                </Grid>
+                        {/* <!--bg-img-------------> */}
+                        <img src="images/w1.jpg" />
+
+                    </div>
+                </div>
             </section>
         )
     }

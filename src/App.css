@@ -5,6 +5,8 @@
 
 	/* Skills */
 @import './styles/Skills/_skills.css';
+@import './styles/Skills/Box/_box.css';
+@import './styles/Skills/Icon/_icon.css';
 
     /* Projects */
 @import './styles/Projects/_projects.css';
@@ -21,6 +23,7 @@ body{
 	margin:0px;
 	padding:0px;
 	background-color:#161616;	
+	font-family: 'Poppins', sans-serif;
 }
 ul{
 	list-style:none;

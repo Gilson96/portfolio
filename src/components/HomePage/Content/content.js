@@ -22,17 +22,15 @@ const Content = () => (
      </p>
         
          {/* cv button */}
-     <a href="https://drive.google.com/file/d/12-HI2229vlK2Vgf-DHoUOZ5XNkvvg_-E/view?usp=sharing" class="cv-btn">Download Cv</a>
+     <a href="https://drive.google.com/file/d/12-HI2229vlK2Vgf-DHoUOZ5XNkvvg_-E/view?usp=sharing" class="cv-btn">Download Resume</a>
 
      </div>
 
      
      { /* social */ }
      <div class="social">
-         <a href="#"><i class="fab fa-facebook-f"></i></a>
-         <a href="#"><i class="fab fa-twitter"></i></a>
-         <a href="#"><i class="fab fa-instagram"></i></a>
-         <a href="#"><i class="fab fa-youtube"></i></a>
+         <a href="#"><i class="fab fa-github"></i></a>
+         <a href="#"><i class="fab fa-linkedin"></i></a>
      </div>
     </>
 )

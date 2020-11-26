@@ -27,13 +27,13 @@ nav{
 	
 }
 .lang{
-	color:#292929;
+	color:#F4F7FF;
 }
 .logo{
 	font-size: 25px;
 	font-weight: bold;
-	color:#292929;
-	font-family:Poppins;
+	color:#17d1ac;
+	font-family: 'Big Shoulders Stencil Display', cursive;
 }
 .toggle{
 	display: none;

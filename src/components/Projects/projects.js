@@ -1,29 +1,30 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell } from 'react-mdl';
-import ProjectCard from './ProjectCard';
+import ProjectCard from '../Projects/ProjectCard';
+import Image from '../../Assets/marker01.png';
 
 class Projects extends Component {
 
     render() {
         return (
-            // <!--portfolio------------------->
+           
             <section id="portfolio">
-                {/* <!--heading-----------> */}
-                <h1 class="p-headind">Portfolio</h1>
-                {/* <!--portfolio-container------------> */}
-                <div class="p-container">
-                    {/* <!--portfolio-box-1--------> */}
-                    <div class="p-box">
-                        {/* <!--text---------> */}
-                        <div class="overlay-text">
-                            <h1>Writting</h1>
-                            <p>Client Project</p>
-                        </div>
-                        {/* <!--bg-img-------------> */}
-                        <img src="images/w1.jpg" />
 
-                    </div>
+                {/* heading */}
+                <h1 class="p-headind">Projects</h1>
+
+                {/* portfolio-container */}
+                <div class="p-container">
+
+                    <ProjectCard
+                        title="Iscream"
+                        description="A fully operational React and Redux App with a laravel API and a Leaftlet.js map."
+                        gitLink="https://github.com/tom-meyrick/iScream"
+                        liveDemo="https://tom-meyrick.github.io/iScream/#/"
+                        image= {Image}
+                    />
+                    
                 </div>
+
             </section>
         )
     }

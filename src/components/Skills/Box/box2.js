@@ -1,29 +1,33 @@
 import React from 'react';
 import Icon from '../Icon/icon';
 
-const Box2 = ({ image, type }) => (
+const Box2 = ({ headIcon, head }) => (
 
     <>
-        
-        <div class="s-box">
-            {/* <!--img-------------> */}
-            <div class="s-b-img">
+    <div className="set">
+        <span class={headIcon}></span>
+        <header>{head}</header>
 
-                {/* <!--type-----------> */}
-                <div class="s-type">{type}</div>
+        <Icon
+            title="Laravel"
+            icon="fab fa-laravel"
+        />
 
-                {/* <!--name-------> */}
-                <img src={image} />
+        <Icon
+            title="React/Redux"
+            icon="fab fa-react"
+        />
 
-            </div>
-            {/* <!--text-----------------> */}
+        <Icon
+            title="Node.js"
+            icon="fab fa-node-js"
+        />
 
-            <Icon
 
-                icon="fab fa-html5"
-                title="html"
-            />
-        
+        <Icon
+            title="Bootstrap"
+            icon="fab fa-bootstrap"
+        />
         </div>
     </>
 );

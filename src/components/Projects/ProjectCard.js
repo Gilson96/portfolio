@@ -1,29 +1,24 @@
 import React from 'react';
-import {  Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
 
 
-const ProjectCard = ({ number, description }) => (
+const ProjectCard = ({ title, description, gitLink, liveDemo, image }) => (
 
-   
-        <Card shadow={5} className="projects-card">
-            <CardTitle className="projects-card-title"/>
-            
+    <div class="p-box">
 
-            <CardText className="projects-card-text">
-                <p>{description}</p>
-            </CardText>
+        {/* text */}
+        <div class="overlay-text">
 
-            <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>LiveDemo</Button>
-            </CardActions>
+            <h1>{title}</h1>
+            <p>{description}</p>
+            <a href={gitLink}>GitHub</a>
+            <a href={liveDemo}>Live</a>
 
-            <CardMenu className="projects-card-menu">
-                <IconButton name="share"></IconButton>
-            </CardMenu>
+        </div>
 
-        </Card>
-    
+        {/* bg-img */}
+        <img src={image} />
+        
+    </div>
 
 );
 

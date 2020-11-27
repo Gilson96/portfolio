@@ -46,9 +46,10 @@
 }
 .social i{
 	color:rgba(18,17,17,0.40);
-	font-size: 14px;
+	font-size: 3rem;
 }
 .social a:hover i{
+	font-size: 3.5rem;
 	color:#17d1ac;
 	transition: all ease 0.5s;
 }

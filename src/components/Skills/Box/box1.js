@@ -1,50 +1,41 @@
 import React from 'react';
 import Icon from '../Icon/icon';
 
-const Box1 = ({ image, type }) => (
+const Box1 = ({ headIcon, head }) => (
 
     <>
+        <div className="set">
+            <span class={headIcon}></span>
+            <header>{head}</header>
 
-        <div class="s-box">
-            {/* <!--img-------------> */}
-            <div class="s-b-img">
+            <Icon
+                title="Html"
+                icon="fab fa-html5"
+            />
 
-                {/* <!--type-----------> */}
-                <div class="s-type">{type}</div>
+            <Icon
+                title="Css"
+                icon="fab fa-css3-alt"
+            />
 
-                {/* <!--name-------> */}
-                <i class="fas fa-laptop-code"></i>
+            <Icon
+                title="JavaScript"
+                icon="fab fa-js"
+            />
 
-            </div>
-            {/* icons */}
 
-            <div className="s-icons">
-                <Icon
+            <Icon
+                title="Php"
+                icon="fab fa-php"
+            />
 
-                    icon="fab fa-html5"
-                    title="html"
-                />
-
-                <Icon
-
-                    icon="fab fa-html5"
-                    title="html"
-                />
-
-                <Icon
-
-                    icon="fab fa-html5"
-                    title="html"
-                />
-
-                <Icon
-
-                    icon="fab fa-html5"
-                    title="html"
-                />
-            </div>
+            <Icon
+                title="MySQL"
+                icon="fab fa-database"
+            />
         </div>
     </>
 );
 
 export default Box1;
+

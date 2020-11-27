@@ -1,24 +1,40 @@
 import React from 'react';
 import Icon from '../Icon/icon';
 
-const Box3 = ({ image, type }) => (
+const Box1 = ({ headIcon, head }) => (
 
     <>
+        <div className="set">
+            <span class={headIcon}></span>
+            <header>{head}</header>
 
-        <div class="s-box">
+            <Icon
+                title="Git"
+                icon="fab fa-github"
+            />
 
-            <div class="s-b-img">
+            <Icon
+                title="AWS"
+                icon="fab fa-aws"
+            />
 
-                <div class="s-type">SEO</div>
+            <Icon
+                title="Vagrant"
+                icon="fab fa-vimeo-v"
+            />
 
-                <img src="images/s3.jpg"/>
-	    </div>
+            <Icon
+                title="Npm"
+                icon="fab fa-npm"
+            />
 
-                <div class="s-b-text">
-                    <a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>
-                </div>
+            <Icon
+                title="APIs"
+                icon="fab fa-database"
+            />
         </div>
     </>
 );
-            
-export default Box3;
+
+export default Box1;
+

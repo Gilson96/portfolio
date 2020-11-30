@@ -7,7 +7,7 @@ class Projects extends Component {
     render() {
         return (
            
-            <section id="portfolio">
+            <section id="projects">
 
                 {/* heading */}
                 <h1 class="p-headind">Projects</h1>

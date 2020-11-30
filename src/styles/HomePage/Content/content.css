@@ -27,9 +27,10 @@
 	align-items: center;
 	background-color: #292929;
 	color:#FFFFFF;
+	
 }
 .cv-btn:hover{
-	background-color: #131313;
+	background-color: #17d1ac;
 	transition: all ease 0.5s;
 }
  

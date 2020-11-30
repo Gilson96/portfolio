@@ -29,8 +29,8 @@ const Content = () => (
      
      { /* social */ }
      <div class="social">
-         <a href="#"><i class="fab fa-github"></i></a>
-         <a href="#"><i class="fab fa-linkedin"></i></a>
+         <a href="https://github.com/Gilson96"><i class="fab fa-github"></i></a>
+         <a href="https://www.linkedin.com/in/gilson-de-almeida-a51ba1194/"><i class="fab fa-linkedin"></i></a>
      </div>
     </>
 )

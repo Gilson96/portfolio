@@ -6,8 +6,9 @@ import Box3 from './Box/box3';
 class Skills extends Component {
     render() {
         return (
-            <section className="skills">
-                <header>Skills</header>
+            <section id="skills">
+                <h1><font style={{ borderBottom: 3+"px solid #1ED98B" }}>Skills</font></h1>
+                
                 <div className="skill">
                     
 

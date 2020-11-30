@@ -1,39 +1,21 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import Icon from '../Skills/Icon/icon';
 
 class Contact extends Component {
     render() {
         return (
-            // <!--contact-form------------------->
-            <section id="contact-form">
-            <form>
-            {/* <!--left---------------------------------------> */}
-            <div class="contact-left">
+         
+            <section id="contact">
             
-            <h1 class="c-l-heading"><font style={{ borderBottom: 3+"px solid #1ED98B" }}>Writ</font>e us</h1>
-            {/* <!--name--------> */}
-            <div class="f-name">
-            <font >Name</font>
-            <input type="text" placeholder="Full Name"/>
-            </div>
-            {/* <!--email--------> */}
-            <div class="f-email">
-            <font >Email</font>
-            <input type="email" placeholder="Example@gmail.com"/>
-            </div>
-            </div>
-            {/* <!--right-------------------------------------------> */}
-            <div class="contact-right">
-            {/* <!--message--------> */}
-            <div class="message">
-            <font >Message</font>
-            <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
-            </div>
-            {/* <!--submit-btn------------> */}
-            <button>submit</button>
+            <h1 class="c-l-heading"><font style={{ borderBottom: 3+"px solid #1ED98B" }}>Contact</font> me</h1>
+            
+            <div className="contact-links">
+               <a href="https://github.com/Gilson96"><i class="fab fa-github"></i>Github</a>
+               <a href="https://www.linkedin.com/in/gilson-de-almeida-a51ba1194/"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+               <a href="#contact"><i class="far fa-envelope"></i>grafael99@gmail.com</a>
             </div>
                 
-            </form>
+          
             </section>
         )
     }

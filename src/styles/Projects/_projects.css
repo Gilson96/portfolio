@@ -1,4 +1,4 @@
-#portfolio{
+#projects{
 	width:100%;
 	box-sizing: border-box;
 	font-family: calibri;
@@ -78,8 +78,25 @@ width: 100%;
 .overlay-text p{
 	font-size: 1.2rem;
 	margin: 0px;
- 
- 
+    text-align: center;
+    margin: 0px; 
+}
+
+.overlay-text a{
+	color: white;
+    padding: 2px;
+    font-size: 1.3rem;
+}
+
+.overlay-text a:hover{
+	color: grey;
+	padding: 2px;
+}
+
+.overlay-text .links{
+	position: absolute;
+    bottom: 0;
+    right: 4%;
 }
 .p-box:hover .overlay-text{
 	display: flex;

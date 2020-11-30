@@ -1,29 +1,28 @@
-
-
-.skills > header{
-    font-family: calibri;
-    font-size: 1.7rem;
-    text-align: center;
-    color: #FFFFFF;
-    font-weight: 400;
-    padding: 10px 20px;
-    background-color: 292929;
-    letter-spacing: 2px;
-    border-radius: 3px;
-    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
-
-
-
+#skills{
+    position: relative;
+    
 }
 
-.skills .skill{
+#skills .skill{
     display: grid;
     grid-gap: 16px;
     padding: 16px;
     max-width: 1024px;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    
 }
+
+
+#skills h1{
+    font-family: calibri;
+	color:#FFFFFF;
+	font-size: 2rem;
+	letter-spacing: 2px;
+	font-weight: 400;
+	text-align: center;
+}
+
 
 .skill .set{
     background-color: #262626;

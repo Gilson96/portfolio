@@ -10,9 +10,10 @@ const ProjectCard = ({ title, description, gitLink, liveDemo, image }) => (
 
             <h1>{title}</h1>
             <p>{description}</p>
-            <a href={gitLink}>GitHub</a>
-            <a href={liveDemo}>Live</a>
-
+            <div className="links">
+                <a href={gitLink}>GitHub</a>
+                <a href={liveDemo}>Live</a>
+            </div>
         </div>
 
         {/* bg-img */}

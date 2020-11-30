@@ -1,23 +1,24 @@
 import React from 'react';
 
-const Navigation = () => (
-
+const Navigation = (toggle) => (
 
     <nav>
         {/* <!--logo---> */}
         <a href="#" class="logo">Gilson</a>
 
         {/* <!--menu---------> */}
-        <div class="toggle"></div>
-        <ul class="menu">
-            <li class="active"><a href="#" >Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Projects</a></li>
-            <li><a href="#contact-form">Contact</a></li>
-        </ul>
+        {/* <div  class="toggle"></div>  */}
+
         
-        {/* <!--language--> */}
-        <a href="#" class="lang">En</a>
+            <ul class="menu">
+                <li class="active"><a href="#" >Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+      
+        
+       
     </nav>
 )
 

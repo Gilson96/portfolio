@@ -11,8 +11,8 @@ const ProjectCard = ({ title, description, gitLink, liveDemo, image }) => (
             <h1>{title}</h1>
             <p>{description}</p>
             <div className="links">
-                <a href={gitLink}>GitHub</a>
-                <a href={liveDemo}>Live</a>
+                <button className="card_button"><a href={gitLink}>GitHub</a></button>
+                <button className="card_button"><a href={liveDemo}>Live</a></button>
             </div>
         </div>
 

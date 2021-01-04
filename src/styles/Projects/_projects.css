@@ -1,56 +1,60 @@
-#projects{
-	width:100%;
+#projects {
+	width: 100%;
 	box-sizing: border-box;
 	font-family: calibri;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-  padding: 60px 2% 20px 2%;
-  background-size: 150rem;
+	padding: 60px 2% 20px 2%;
+	background-size: 150rem;
 	background-position: right bottom;
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/11/Beautiful-goo-700x394.jpg");
-	background-color: #edf1fd; 
+	background-color: #edf1fd;
 }
- 
-.p-headind{
+
+.p-headind {
 	font-family: calibri;
 	font-size: 1.7rem;
 	text-align: center;
-	color:#FFFFFF;
+	color: #FFFFFF;
 	font-weight: 400;
 	padding: 10px 20px;
 	background-color: #292929;
 	letter-spacing: 2px;
 	border-radius: 3px;
-	box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
-	
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+
 }
-.p-box{
- 
+
+.p-box {
+
 	background-color: #1F1F1F;
 	overflow: hidden;
 	border-radius: 10px;
-	box-shadow: 2px 2px 13px rgba(0,0,0,0.3);
+	box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
 	position: relative;
- 
+
 }
-.p-box img{
- 
-width: 100%;
+
+.p-box img {
+
+	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
-.p-container{
+
+.p-container {
 	width: 90%;
-	height:70vh;
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr;
+	height: 70vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto auto;
 	grid-gap: 10px;
 }
-.overlay-text{
+
+.overlay-text {
 	font-family: calibri;
 	position: absolute;
 	left: 0;
@@ -61,44 +65,73 @@ width: 100%;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: rgba(23,209,172,0.80);
-	display:none;
-	
+	background-color: rgba(23, 209, 172, 0.80);
+	display: none;
+
 }
-.overlay-text h1,p{
-	color: #FFFFFF;
+
+.overlay-text h1,
+p {
+	color: #292929;
 }
-.overlay-text h1{
+
+.overlay-text h1 {
 	font-size: 2.2rem;
 	margin: 0px;
 	padding: 0px;
 	letter-spacing: 2px;
-	
+
 }
-.overlay-text p{
-	font-size: 1.2rem;
+
+.overlay-text p {
+	font-size: 1.5rem;
 	margin: 0px;
-    text-align: center;
-    margin: 0px; 
+	text-align: center;
+	margin: 0px;
+	font-weight: 500;
 }
 
-.overlay-text a{
+.overlay-text a {
 	color: white;
-    padding: 2px;
-    font-size: 1.3rem;
+	padding: 2px;
+	font-size: 1.3rem;
 }
 
-.overlay-text a:hover{
+.overlay-text a:hover {
 	color: grey;
 	padding: 2px;
 }
 
-.overlay-text .links{
+.overlay-text .links {
 	position: absolute;
-    bottom: 0;
-    right: 4%;
+	bottom: 0;
+	right: 4%;
 }
-.p-box:hover .overlay-text{
+
+.p-box:hover .overlay-text {
 	display: flex;
-	
+
+}
+
+
+.card_button {
+	padding: 9px;
+	/* border: 2px solid rgba(106, 163, 137); */
+	border-radius: 1em;
+	background: #292929;
+	transform-style: preserve-3d;
+	transition: all 175ms cubic-bezier(0, 0, 1, 1);
+	margin: 7px;
+}
+
+.card_button::before {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+	.card_button {
+		display: block;
+		margin: 0.4em auto;
+	}
 }

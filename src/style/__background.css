@@ -1,0 +1,4 @@
+.wrapper{
+    overflow: hidden;
+    background: linear-gradient(90deg black 0%, blue 35%, violet 100%);
+}

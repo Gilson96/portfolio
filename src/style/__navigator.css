@@ -1,0 +1,45 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    min-width: 20rem;
+    background-color: #064663;
+    text-align: center;
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    height: 3rem;
+    padding: 0 1rem;
+    color: #DBE8D4;
+    line-height: 3em;
+}
+
+#link{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    color: #73CCA8;
+    border-bottom: 4px solid #73CCA8;
+}
+
+
+@media only screen and (max-width: 30rem) {
+
+    nav a {
+        padding: 0 0.5rem;
+    }
+}

@@ -1,0 +1,91 @@
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 3rem;
+}
+
+.container{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.name{
+    position: relative;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.name h1{
+   padding-top: 2%;
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 1;
+    font-family: 'Indie Flower', cursive;
+}
+
+.name h2{
+    margin: 1em 0 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-family: 'Indie Flower', cursive;
+}
+
+.photo{
+    position: relative;
+    width: 18em;
+    height: 12em;
+    margin: 0 auto;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.photo img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9em;
+    height: 9em;
+    margin-top: -4.5em;
+    margin-left: -4.5em;
+    overflow: hidden;
+    opacity: 0.75;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2E3445;
+    border-radius: 50%;
+}
+
+
+.intro{
+    width: 28rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.7;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 30rem){
+    .name h1 {
+        font-size: 2rem;
+        font-size: 9vw;
+    }
+
+    .intro{
+        width: 100%;
+    }
+}

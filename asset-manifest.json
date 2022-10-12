@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TinDog/static/css/main.cf68f307.css",
+    "main.js": "/TinDog/static/js/main.d0c0f07a.js",
+    "static/media/me.jpg": "/TinDog/static/media/me.ff8779e4169265b7b6f5.jpg",
+    "static/media/drumkit_logo.png": "/TinDog/static/media/drumkit_logo.b67ecd9743a5db03ae5a.png",
+    "index.html": "/TinDog/index.html",
+    "main.cf68f307.css.map": "/TinDog/static/css/main.cf68f307.css.map",
+    "main.d0c0f07a.js.map": "/TinDog/static/js/main.d0c0f07a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf68f307.css",
+    "static/js/main.d0c0f07a.js"
+  ]
+}

@@ -1,23 +1,24 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inspiration&family=Rubik&family=Rubik+Burned&display=swap');
-
-/* Navigator */
-@import './style/__navigator.css';
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Audiowide&display=swap');
 
 /* Main */
-@import './style/__header.css';
-
-/* Skills */
-@import './style/__skills.css';
+@import './style/__mainPage.css';
 
 /* Projects */
 @import './style/__project.css';
 
-/* Footer */
-@import './style/__footer.css';
+/* Skills */
+@import './style/__skills.css';
 
-/* background */
-@import './style/__background.css';
+/* Footer */
+@import './style/__contact.css';
+
+/* About Me */
+@import './style/__backMenuBtn.css';
+
+/* Carousel */
+@import './style/__carousel.css';
 
 *{
   margin: 0;
@@ -35,8 +36,10 @@ html{
 }
 
 body{
-  background-color: #04293A;
   font-family: 'Indie Flower', cursive;
   color: #DBE8D4;
+  background-image: url('./assets/background_bricks.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
   animation-timing-function:linear;
 }

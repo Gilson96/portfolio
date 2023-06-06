@@ -1,0 +1,27 @@
+.links-box{
+    display: flex;
+    position: absolute;
+    bottom: 8%;
+    right: 15%;
+    justify-content: space-evenly;
+    gap: 52%;
+}
+
+.links{
+    font-size: 3rem;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 42px #1eff4e,
+    0 0 82px #1eff4e,
+    0 0 92px #1eff4e,
+  
+    0 0 151px #1eff4e;   
+}
+
+.links:hover {
+transform: scale(1.5);
+  }
+
+.links i{
+    color: #fff;
+}

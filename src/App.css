@@ -20,7 +20,7 @@
 /* Carousel */
 @import './style/__carousel.css';
 
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -31,15 +31,16 @@
   list-style: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
-body{
+body {
   font-family: 'Indie Flower', cursive;
   color: #DBE8D4;
   background-image: url('./assets/background_bricks.jpg');
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-  animation-timing-function:linear;
+  background-size: cover;
 }

@@ -1,13 +1,14 @@
-.main-page{
+.main-page {
     display: flex;
     height: 100%;
     width: 100%;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+
 }
 
-.icon{
+.icon {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
@@ -15,66 +16,131 @@
     font-size: 10rem;
     cursor: pointer;
     text-shadow:
-    0 0 7px #fff,
-    0 0 42px #1eff4e,
-    0 0 82px #1eff4e,
-    0 0 92px #1eff4e,
-    0 0 102px #1eff4e,
-    0 0 151px #1eff4e;  
+        0 0 7px #fff,
+        0 0 42px #1eff4e,
+        0 0 82px #1eff4e,
+        0 0 92px #1eff4e,
+        0 0 102px #1eff4e,
+        0 0 151px #1eff4e;
 
 }
 
-.logo-box{
+.logo-box {
     position: absolute;
     top: 1%;
     left: 0%;
     padding: 3%;
 }
 
-.logo{
+.logo {
     width: 49%;
 }
 
-.mainPage-content{
+.mainPage-content {
     display: flex;
     gap: 20%;
     margin-top: 16%;
     margin-right: 15%;
     align-items: center;
     flex-direction: row;
- 
+
 }
 
 
-.contact{
+.contact {
     margin-bottom: 5%;
 }
 
-.letters{
+.letters {
     font-size: 1rem;
 }
 
-.letters-box{
+.letters-box {
     display: flex;
 }
 
-.text{
+.text {
     margin-bottom: 5%;
 }
 
 
-y{
-   display: none;
+y {
+    display: none;
 }
 
-.glow{
+.glow {
     text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #1eff4e,
-    0 0 82px #1eff4e,
-    0 0 92px #1eff4e,
-    0 0 102px #1eff4e,
-    0 0 151px #1eff4e;   
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #1eff4e,
+        0 0 82px #1eff4e,
+        0 0 92px #1eff4e,
+        0 0 102px #1eff4e,
+        0 0 151px #1eff4e;
+}
+
+@media screen and (max-width: 1050px) {
+    .mainPage-content {
+        margin-top: 23%;
+        margin-right: 10%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .mainPage-content {
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+
+    .icon {
+        font-size: 6rem;
+    }
+
+    .logo {
+        width: 100%;
+        height: 2.2rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .mainPage-content {
+        margin-top: 45%;
+    }
+
+    .icon {
+        font-size: 5rem;
+    }
+
+    .logo {
+        width: 98%;
+        height: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mainPage-content {
+        margin-top: 49%;
+    }
+
+    .logo {
+        width: 98%;
+        height: 2.2rem;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .mainPage-content {
+        margin-top: 62%;
+    }
+
+    .logo {
+        width: 98%;
+        height: 2.2rem;
+    }
+
+
 }

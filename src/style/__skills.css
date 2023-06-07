@@ -18,11 +18,96 @@
     color: aqua;
 }
 
-.skills i{
+.skills i {
     position: absolute;
     top: 57%;
 }
 
 .skills .text {
     margin-bottom: 0%;
+}
+
+@media screen and (max-width: 1050px){
+    .skills_box{
+        top: 19%;
+    }   
+}
+
+@media screen and (max-width: 800px) {
+    .skills-box {
+        width: 100%;
+        top: 44%;
+        left: 10%;
+    }
+
+    .skills i {
+        font-size: 5rem;
+        top: 27%;
+    }
+
+    .skills_icon {
+        height: 98px;
+        width: 98px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .skills-box {
+        width: 100%;
+        top: 51%;
+        left: 12%;
+    }
+
+    .skills i {
+
+        font-size: 2.5rem;
+        top: 36%;
+    }
+
+    .skills_icon{
+        width: 48px;
+        height: 48px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .skills-box {
+        width: 100%;
+        top: 51%;
+        left: 10%;
+    }
+
+    .skills i {
+
+        font-size: 2.5rem;
+        top: 36%;
+    }
+
+    .skills_icon{
+        width: 48px;
+        height: 48px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .skills-box {
+        width: 100%;
+        top: 51%;
+        left: 3%;
+    }
+
+    .skills i {
+
+        font-size: 2.5rem;
+        top: 36%;
+    }
+
+    .skills_icon{
+        width: 48px;
+        height: 48px;
+    }
+
 }

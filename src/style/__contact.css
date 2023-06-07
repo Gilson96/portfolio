@@ -25,3 +25,32 @@ transform: scale(1.5);
 .links i{
     color: #fff;
 }
+
+@media screen and (max-width: 800px){
+    .links{
+        font-size: 2rem;
+    } 
+
+    .links-box{
+        right: 43%;
+        bottom: 10%;
+    }  
+}
+
+@media screen and (max-width: 500px){
+    .links{
+        font-size: 2rem;
+    } 
+
+    .links-box{
+        right: 41%;
+    }  
+}
+
+@media screen and (max-width: 400px){
+    .links-box{
+        right: 37%;
+    }  
+
+}
+

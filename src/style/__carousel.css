@@ -1,5 +1,5 @@
 .carousel{
-    width: 86%;
+    width: 100%;
 }
 
 .carousel-control-next{
@@ -58,3 +58,6 @@
     color: transparent;
 }
 
+@media screen and (max-width: 350px) {
+    
+}

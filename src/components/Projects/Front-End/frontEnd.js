@@ -4,9 +4,6 @@ import React from 'react'
 
 const FrontEnd = (props) => {
 
-   
-
-
     return (
         
         <div className='card'>

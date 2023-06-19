@@ -13,30 +13,31 @@
     flex-wrap: wrap;
 }
 
-.skills {
-    font-size: 5rem;
-}
+
 
 .skills-box li:nth-child(n+5) {
     display: flex;
 }
 
 
-.skills i{
+
+
+.skills i {
     position: relative;
     top: 9%;
     left: 8%;
+    font-size: 5rem;
 }
 
-.react{
+.react {
     color: aqua;
 }
 
-.php{
+.php {
     color: rebeccapurple;
 }
 
-.laravel{
+.laravel {
     color: red;
 }
 
@@ -52,34 +53,34 @@
 
 @media screen and (max-width: 800px) {
     .skills-box {
-        width: 100%;
-        top: 44%;
-        left: 10%;
+        width: 76%;
+        top: 50%;
+        left: 19%;
     }
 
     .skills i {
-        font-size: 5rem;
-        top: 27%;
+        font-size: 2.5rem;
+        top: 0;
     }
 
     .skills_icon {
-        height: 98px;
-        width: 98px;
+        height: 48px;
+        width: 48px;
     }
 }
 
 
 @media screen and (max-width: 500px) {
     .skills-box {
-        width: 100%;
-        top: 51%;
-        left: 12%;
+        width: 56%;
+        top: 53%;
+        left: 22%;
     }
 
     .skills i {
 
         font-size: 2.5rem;
-        top: 36%;
+        top: 0;
     }
 
     .skills_icon {
@@ -91,15 +92,15 @@
 
 @media screen and (max-width: 400px) {
     .skills-box {
-        width: 100%;
-        top: 51%;
-        left: 10%;
+        width: 64%;
+        top: 53%;
+        left: 19%;
     }
 
     .skills i {
 
         font-size: 2.5rem;
-        top: 36%;
+        top: 0;
     }
 
     .skills_icon {
@@ -111,15 +112,17 @@
 
 @media screen and (max-width: 350px) {
     .skills-box {
-        width: 100%;
-        top: 51%;
-        left: 3%;
+        width: 76%;
+        top: 48%;
+        padding: 3%;
+        left: 15%;
+        gap: 9%;
     }
 
     .skills i {
 
         font-size: 2.5rem;
-        top: 36%;
+        top: 0;
     }
 
     .skills_icon {

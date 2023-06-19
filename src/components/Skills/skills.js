@@ -2,16 +2,17 @@ import { useSpring, animated } from '@react-spring/web'
 import { Fade} from "react-awesome-reveal";
 
 // icons
-import TypeScript from './icon_typeScript';
-import JavaScript from './icon_javaScript';
-import Html from './icon_html';
-import Css from './icon_css'
-import React from './icon_react';
-
+import TypeScript from './icons/icon_typeScript';
+import JavaScript from './icons/icon_javaScript';
+import Html from './icons/icon_html';
+import Css from './icons/icon_css'
+import React from './icons/icon_react';
+import Php from './icons/icon_php'
+import Laravel from './icons/icon_laravel';
 
 const Skills = (props) => {
 
-  const skills = [<TypeScript/>, <JavaScript/>, <Css/>, <Html/>, <React/>];
+  const skills = [<TypeScript/>, <JavaScript/>, <Css/>, <Html/>, <React/>, <Php/>, <Laravel/> ];
 
 
   const springs = useSpring({

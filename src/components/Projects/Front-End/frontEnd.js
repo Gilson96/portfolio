@@ -1,9 +1,14 @@
 import React from 'react'
 
+
+
 const FrontEnd = (props) => {
+
+   
 
 
     return (
+        
         <div className='card'>
             <img className='card-title' src={props.title}/>
             <img className='card-image' src={props.image}/>

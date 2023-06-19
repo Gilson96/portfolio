@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c20c52ee.css",
-    "main.js": "/portfolio/static/js/main.9a1e2d77.js",
+    "main.css": "/portfolio/static/css/main.2035fa0c.css",
+    "main.js": "/portfolio/static/js/main.d1bc92dd.js",
     "static/media/green-neon-arrow-1.png": "/portfolio/static/media/green-neon-arrow-1.061d25be309a5070d0d2.png",
-    "static/media/greenBacground.png": "/portfolio/static/media/greenBacground.25c23d51ba3fe96dbbed.png",
     "static/media/Gilson.png": "/portfolio/static/media/Gilson.7a213d17fd9b579194bc.png",
     "static/media/projects.png": "/portfolio/static/media/projects.40dbd3ba5ba7db2bda94.png",
+    "static/media/backEndLogo.png": "/portfolio/static/media/backEndLogo.41b2f939435a092c78a6.png",
+    "static/media/frontEndLogo.png": "/portfolio/static/media/frontEndLogo.944f81f6ff2b8a02789b.png",
+    "static/media/tindogLogo.png": "/portfolio/static/media/tindogLogo.76fe51beb5b41ffddc73.png",
+    "static/media/ReactMealsLogo.png": "/portfolio/static/media/ReactMealsLogo.5cc582e2843a3070ce32.png",
+    "static/media/blogLogo.png": "/portfolio/static/media/blogLogo.d3920f61ac5814ce3230.png",
+    "static/media/ToDoLogo.png": "/portfolio/static/media/ToDoLogo.1e6b21097faba9b3ecef.png",
     "static/media/background_bricks.jpg": "/portfolio/static/media/background_bricks.f869f34a23998b324e85.jpg",
+    "static/media/blog.png": "/portfolio/static/media/blog.1b6d5d79976df0939644.png",
     "index.html": "/portfolio/index.html",
-    "main.c20c52ee.css.map": "/portfolio/static/css/main.c20c52ee.css.map",
-    "main.9a1e2d77.js.map": "/portfolio/static/js/main.9a1e2d77.js.map"
+    "main.2035fa0c.css.map": "/portfolio/static/css/main.2035fa0c.css.map",
+    "main.d1bc92dd.js.map": "/portfolio/static/js/main.d1bc92dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.c20c52ee.css",
-    "static/js/main.9a1e2d77.js"
+    "static/css/main.2035fa0c.css",
+    "static/js/main.d1bc92dd.js"
   ]
 }

@@ -71,7 +71,12 @@
 
 @media screen and (max-width: 800px) {
     .backMenu {
-        right: -6%;
+        font-size: 1.2rem;
+        margin: 1%;
+        padding: 6px 14px;
+        right: 82%;
+        top: 29%;
+        transform: skewY(0deg);
     }
 }
 

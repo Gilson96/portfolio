@@ -110,10 +110,11 @@
         width: 100%;
         left: 0%;
         bottom: 0;
+        top: 41%;
     }
 
     .projects-title {
-       width: 50%;
+        width: 100%;
     }
 
     .card {
@@ -122,6 +123,7 @@
 
     .project-text {
         right: 38%;
+        top: 31%;
     }
 }
 
@@ -129,7 +131,7 @@
 @media screen and (max-width: 500px) {
     .projects-box {
         width: 100%;
-        left: 20%;
+        left: 1%;
         top: 44%;
     }
 
@@ -164,7 +166,7 @@
 @media screen and (max-width: 400px) {
     .projects-box {
         width: 100%;
-        left: 27%;
+        left: 1%;
         top: 40%;
     }
 
@@ -174,6 +176,10 @@
         top: 0px;
         left: 0%;
         flex-direction: column;
+    }
+
+    .projects-title {
+        width: 90%;
     }
 
     .card {
@@ -187,9 +193,9 @@
 
     .project-text {
         font-size: 0.8rem;
-        top: 28%;
+        top: 29%;
         right: 0;
-        left: 61%;
+        left: 48%;
     }
 
 }

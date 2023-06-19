@@ -94,16 +94,14 @@ const Projects = (props) => {
                 <div className="projects">
                     {isFront &&
                         frontProjects.map((project) => (
-                            <Carousel.Item>
-                                <FrontEnd
-                                    key={project.key}
-                                    title={project.title}
-                                    image={project.image}
-                                    description={project.description}
-                                    live={project.live}
-                                    github={project.github}
-                                />
-                            </Carousel.Item>
+                            <FrontEnd
+                                key={project.key}
+                                title={project.title}
+                                image={project.image}
+                                description={project.description}
+                                live={project.live}
+                                github={project.github}
+                            />
                         ))
                     }
                 </div>
